@@ -1964,10 +1964,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "51339400-c69d-4cdf-aa18-f7e0c5f103ce")
+			(uuid "51339400-c69d-4cdf-aa18-f7e0c5f103cf")
 		)
 		(pin "2"
-			(uuid "2d9b67bf-3bfc-4666-bafd-13cd4e134793")
+			(uuid "2d9b67bf-3bfc-4666-bafd-13cd4e134794")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
