@@ -1490,7 +1490,7 @@
 				)
 			)
 		)
-		(symbol "power:+12V"
+		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1507,7 +1507,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+12V"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1533,7 +1533,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1551,7 +1551,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+12V_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1589,7 +1589,7 @@
 					)
 				)
 			)
-			(symbol "+12V_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1710,6 +1710,126 @@
 				)
 			)
 			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+9V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+9V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+9V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+9V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2073,6 +2193,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 124.46) (xy 101.6 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d99bdf-c727-49de-9728-e6732a09f2b6")
+	)
+	(wire
+		(pts
 			(xy 194.31 31.75) (xy 194.31 39.37)
 		)
 		(stroke
@@ -2210,6 +2340,16 @@
 			(type default)
 		)
 		(uuid "b6900d4e-b08e-4a3c-be04-49ae1c136bf6")
+	)
+	(wire
+		(pts
+			(xy 72.39 21.59) (xy 72.39 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba30bd7e-56bd-4ae3-8648-e15052076df0")
 	)
 	(wire
 		(pts
@@ -2593,72 +2733,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 176.53 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37779bdc-1933-4521-98a2-c6787e428081")
-		(property "Reference" "#PWR03"
-			(at 176.53 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 176.53 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 176.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec98956f-6b62-4142-8bfe-6396abaaee30")
-		)
-		(instances
-			(project "ArmLEDsPrototype"
-				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 149.86 29.21 0)
 		(unit 1)
@@ -2785,6 +2859,72 @@
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 101.6 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a0c0597-c3fe-4ba5-9c6d-259a48f23bcc")
+		(property "Reference" "J8"
+			(at 102.8701 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 99.314 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c4bacbd-e46c-4a34-9755-59b3500f8ca0")
+		)
+		(instances
+			(project "ArmLEDsPrototype"
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2921,6 +3061,72 @@
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 101.6 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89a5f87b-6199-46ac-95de-8533872d7f3c")
+		(property "Reference" "#PWR011"
+			(at 101.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1e96e40-7cad-4aa6-ae3c-0aea79251b85")
+		)
+		(instances
+			(project "ArmLEDsPrototype"
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3123,6 +3329,72 @@
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 55.88 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6172a56-f370-488f-bc1c-bcc4d4598a09")
+		(property "Reference" "#PWR03"
+			(at 55.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 55.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 55.88 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5993482-4c14-422e-9173-d7e51c794a9c")
+		)
+		(instances
+			(project "ArmLEDsPrototype"
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3414,6 +3686,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+9V")
+		(at 176.53 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdb63a06-e75a-46dc-bcbe-434cb65d38db")
+		(property "Reference" "#PWR08"
+			(at 176.53 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 176.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dabe4f44-de18-4106-9388-b0c7d444c7b3")
+		)
+		(instances
+			(project "ArmLEDsPrototype"
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 196.85 124.46 0)
 		(unit 1)
@@ -3635,17 +3973,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 55.88 135.89 0)
+		(lib_id "power:+3.3V")
+		(at 72.39 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d9fca10a-ca0c-44a5-95ac-68a149be19ff")
-		(property "Reference" "#PWR08"
-			(at 55.88 139.7 0)
+		(uuid "da42febc-5fc3-4feb-afe1-31eea0f4e9a2")
+		(property "Reference" "#PWR010"
+			(at 72.39 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,8 +3991,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 55.88 130.81 0)
+		(property "Value" "+3.3V"
+			(at 72.39 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +4000,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 135.89 0)
+			(at 72.39 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +4009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 135.89 0)
+			(at 72.39 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,8 +4017,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 55.88 135.89 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 72.39 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3689,12 +4027,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "71b72b37-f516-4d83-854d-f57ae194f039")
+			(uuid "144a542b-5c1a-4a67-ba59-cad6d814a732")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)

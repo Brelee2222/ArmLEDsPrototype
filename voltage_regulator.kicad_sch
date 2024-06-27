@@ -24,6 +24,25 @@
 		)
 		(uuid "a6b4333f-bd67-456f-bf40-83dda0738335")
 	)
+	(text_box "Might use the\n MAX1726\nhttps://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX1725EUK-T/1517783\nhttps://www.analog.com/media/en/technical-documentation/data-sheets/max1725-max1726.pdf"
+		(exclude_from_sim no)
+		(at 88.9 71.12 0)
+		(size 118.11 39.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f708de0d-8f81-49bd-bc90-dea6f30b7702")
+	)
 	(hierarchical_label "GND"
 		(shape output)
 		(at 166.37 54.61 0)
