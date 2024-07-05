@@ -1,0 +1,136 @@
+(footprint "Inductor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.9 -4.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "16eef278-8fa2-4e9c-973d-72db97c648be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Inductor"
+		(at 5.9 -2.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0b0ac7f7-f6a6-49d3-8986-e30f71906690")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Inductor"
+		(at 6.3 12.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3956f5f9-1d7c-4f18-b52b-86974df98aa9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc018d79-bd0d-4865-8f03-3c3d668322b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2734b78a-39e3-4b18-a14c-486727a17d49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 0)
+		(end 0 11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c07eca89-f16a-4794-83d7-5d478d6d5cee")
+	)
+	(fp_line
+		(start 0 0)
+		(end 12 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7567c650-6507-4cc7-8458-dbd6c7f031b9")
+	)
+	(fp_line
+		(start 12 0)
+		(end 12 11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c7f2563f-8287-4069-b92e-7ec6a45e9544")
+	)
+	(fp_line
+		(start 12 11)
+		(end 0 11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "61820c6b-8be9-49c8-af6c-7ad4662d68ed")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.9 -1.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4c09c02c-ff28-43e6-9801-4b24001260e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2 5.5 270)
+		(size 8 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "290ee0ad-b45f-4359-a237-53a18ffe56ee")
+	)
+	(pad "2" smd rect
+		(at 10 5.5 270)
+		(size 8 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b9353a46-ada1-4776-820b-2022ac829d5d")
+	)
+)

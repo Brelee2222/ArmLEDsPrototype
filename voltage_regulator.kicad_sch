@@ -916,7 +916,7 @@
 		)
 		(uuid "3e3d783e-d90e-43da-a9fd-a8d4e7ec49c0")
 	)
-	(text_box "R10: 147k ohms\nR11: 20k ohms\nL1: 4.7 micro Henries\nC1, 4, 5: 22 micro farads\nC2: 0.1 micro Farads\nC3: 47-82 pico Farads"
+	(text_box "R10: 147k ohms\nR11: 20k ohms\nR9: 5k ohms\nL1: 4.7 micro Henries\nC1, 4, 5: 22 micro farads\nC2: 0.1 micro Farads\nC3: 47-82 pico Farads"
 		(exclude_from_sim no)
 		(at 149.86 29.21 0)
 		(size 29.21 15.24)
@@ -1069,7 +1069,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 156.718 88.9 90)
 			(effects
 				(font
@@ -1078,7 +1078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale-thin-film/PNM0402E5001BST1/4341869"
 			(at 154.94 88.9 0)
 			(effects
 				(font
@@ -1205,7 +1205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 166.0652 85.09 0)
 			(effects
 				(font
@@ -1214,7 +1214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kyocera-avx/08055A640FAT2A/1602709"
 			(at 165.1 81.28 0)
 			(effects
 				(font
@@ -1413,7 +1413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ArmLEDFootprintLib:Inductor"
 			(at 148.59 77.47 0)
 			(effects
 				(font
@@ -1422,7 +1422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/pulse-electronics/BFSI001211094R7M05/16510826"
 			(at 148.59 77.47 0)
 			(effects
 				(font
@@ -1561,7 +1561,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 142.24 86.868 90)
 			(effects
 				(font
@@ -1570,7 +1570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale-thin-film/PNM0402E5001BST1/4341869"
 			(at 142.24 85.09 0)
 			(effects
 				(font
@@ -1829,7 +1829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 153.162 81.28 90)
 			(effects
 				(font
@@ -1838,7 +1838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale-thin-film/PNM0402E5001BST1/4341869"
 			(at 154.94 81.28 0)
 			(effects
 				(font
