@@ -1960,10 +1960,16 @@
 		(uuid "402ee8fa-37ce-4142-96a1-89f72d3e40b9")
 	)
 	(junction
-		(at 172.72 31.75)
+		(at 248.92 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6f6d951a-f8de-499e-8e85-e5ced90d7725")
+		(uuid "410a8145-1ceb-4216-9ef7-6ed943c135fe")
+	)
+	(junction
+		(at 214.63 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81a39e60-bf4a-421f-9862-e3c8f4a9f3e0")
 	)
 	(junction
 		(at 172.72 50.8)
@@ -1971,11 +1977,15 @@
 		(color 0 0 0 0)
 		(uuid "9c2ad40f-8fd3-4424-bb7f-4fcc1d50b1f3")
 	)
-	(junction
-		(at 149.86 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc45b66e-7ace-458f-818e-61b006f6ede4")
+	(wire
+		(pts
+			(xy 214.63 114.3) (xy 218.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0236a2e9-bd59-4881-a359-6ec48e49e8f5")
 	)
 	(wire
 		(pts
@@ -2059,6 +2069,36 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 100.33) (xy 214.63 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef905f8-9c74-4e1e-a47c-88ec2238c948")
+	)
+	(wire
+		(pts
+			(xy 231.14 111.76) (xy 234.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3173dcdf-617c-4b0d-b4c9-17ba1137efce")
+	)
+	(wire
+		(pts
+			(xy 248.92 109.22) (xy 252.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3545bbf1-1fb4-4c66-9c76-e14c959571db")
+	)
+	(wire
+		(pts
 			(xy 176.53 109.22) (xy 180.34 109.22)
 		)
 		(stroke
@@ -2066,6 +2106,16 @@
 			(type default)
 		)
 		(uuid "375aafbb-56e0-497f-9e92-a31bc7b03f6a")
+	)
+	(wire
+		(pts
+			(xy 248.92 109.22) (xy 248.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48fa5bb6-2a9f-423d-bf28-547541122fa5")
 	)
 	(wire
 		(pts
@@ -2079,13 +2129,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 31.75) (xy 194.31 31.75)
+			(xy 214.63 109.22) (xy 214.63 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5790bbea-a289-44fb-8cf0-c78b46242e75")
+		(uuid "57d22db1-d400-4399-b975-6e2450a68520")
+	)
+	(wire
+		(pts
+			(xy 269.24 111.76) (xy 269.24 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58350ff1-b5e5-46f6-878c-2a33f0105fd9")
 	)
 	(wire
 		(pts
@@ -2099,6 +2159,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 109.22) (xy 218.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b04b879-7d6f-4058-9b11-541241d4acae")
+	)
+	(wire
+		(pts
 			(xy 194.31 50.8) (xy 194.31 53.34)
 		)
 		(stroke
@@ -2109,7 +2179,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 31.75) (xy 149.86 38.1)
+			(xy 149.86 29.21) (xy 149.86 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2179,16 +2249,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 31.75) (xy 172.72 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fc63dfc-d882-4911-ab03-6829005dfa9a")
-	)
-	(wire
-		(pts
 			(xy 101.6 124.46) (xy 101.6 132.08)
 		)
 		(stroke
@@ -2199,13 +2259,33 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 31.75) (xy 194.31 39.37)
+			(xy 265.43 111.76) (xy 269.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1d3cba-cfea-4b57-99b5-fa92e86b227d")
+	)
+	(wire
+		(pts
+			(xy 194.31 29.21) (xy 194.31 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "816164e1-dbe8-4956-a96d-e49b1add3c3c")
+	)
+	(wire
+		(pts
+			(xy 248.92 114.3) (xy 252.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82dbda87-eb41-4787-b35b-d0395cf3e289")
 	)
 	(wire
 		(pts
@@ -2216,16 +2296,6 @@
 			(type default)
 		)
 		(uuid "86000951-b3b1-4055-a376-97f5cb0cc8cd")
-	)
-	(wire
-		(pts
-			(xy 149.86 29.21) (xy 149.86 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86137af3-b414-4e2f-b946-6d67a85031f3")
 	)
 	(wire
 		(pts
@@ -2379,6 +2449,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 100.33) (xy 248.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09d6315-0bae-4c1d-935b-2fe97fe894d0")
+	)
+	(wire
+		(pts
 			(xy 176.53 114.3) (xy 180.34 114.3)
 		)
 		(stroke
@@ -2419,13 +2499,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 31.75) (xy 172.72 39.37)
+			(xy 172.72 29.21) (xy 172.72 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ed49bf19-f29f-43ac-9d72-9277d5b2aad6")
+	)
+	(wire
+		(pts
+			(xy 234.95 111.76) (xy 234.95 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed719d22-9030-467d-acb4-e36b834d1805")
 	)
 	(wire
 		(pts
@@ -2514,6 +2604,28 @@
 		)
 		(uuid "b01a9d49-1a4c-498a-b201-33a5161d3da8")
 	)
+	(label "5V#3"
+		(at 269.24 100.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08187af8-d080-4748-8721-ef9aa364a7ae")
+	)
+	(label "5V#2"
+		(at 234.95 100.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c4be014-867d-428b-bfa1-8a46034253d5")
+	)
 	(label "LED_S"
 		(at 46.99 77.47 90)
 		(fields_autoplaced yes)
@@ -2525,6 +2637,50 @@
 		)
 		(uuid "29e8553c-4eed-4fe7-8c23-c104adf3856a")
 	)
+	(label "5V#1"
+		(at 67.31 21.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bb2090b-d927-44e9-88fb-c163d28a1dc7")
+	)
+	(label "5V#1"
+		(at 196.85 100.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f7d9c5f-4666-4cea-ba59-3cc6e512dbd7")
+	)
+	(label "5V#3"
+		(at 194.31 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4027bcb8-ebbe-4ce5-a973-cecc78250246")
+	)
+	(label "5V#1"
+		(at 149.86 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e6d54d0-9292-49bf-a515-b6676a3a8b49")
+	)
 	(label "LED_S"
 		(at 139.7 40.64 0)
 		(fields_autoplaced yes)
@@ -2535,6 +2691,17 @@
 			(justify left bottom)
 		)
 		(uuid "90ba7529-b39d-4de4-9d7e-b564a64a5616")
+	)
+	(label "5V#2"
+		(at 172.72 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ae95d2d-c79c-4019-8942-df03b6e04c55")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2603,17 +2770,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 67.31 21.59 0)
+		(lib_id "power:+9V")
+		(at 248.92 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1003e56d-3b32-4f99-8bd0-fc72a6a70cdd")
-		(property "Reference" "#PWR06"
-			(at 67.31 25.4 0)
+		(uuid "2f378c64-62a7-4cf4-925c-8328c994a7fa")
+		(property "Reference" "#PWR022"
+			(at 248.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,8 +2788,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 67.31 16.51 0)
+		(property "Value" "+9V"
+			(at 248.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +2797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 21.59 0)
+			(at 248.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +2806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 21.59 0)
+			(at 248.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,8 +2814,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 67.31 21.59 0)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 248.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,12 +2824,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "49fb8433-3b97-4d9d-b360-203af2cd67b0")
+			(uuid "6a258ac5-dd91-4ab7-a047-8b9f22d686d9")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
-					(reference "#PWR06")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -2739,17 +2906,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 149.86 29.21 0)
+		(lib_id "power:+9V")
+		(at 214.63 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "51342bef-063c-4403-8626-9afcaa8329d7")
-		(property "Reference" "#PWR024"
-			(at 149.86 33.02 0)
+		(uuid "3e30973f-b2a8-45ac-83d6-23b38ce76ab6")
+		(property "Reference" "#PWR04"
+			(at 214.63 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,8 +2924,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 149.86 24.13 0)
+		(property "Value" "+9V"
+			(at 214.63 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2766,7 +2933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 29.21 0)
+			(at 214.63 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,7 +2942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 29.21 0)
+			(at 214.63 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,74 +2950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 149.86 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ad7fdb2-3f46-4510-814a-a491951186fb")
-		)
-		(instances
-			(project "ArmLEDsPrototype"
-				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 196.85 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59fe13a8-b9a1-4bf9-83b0-57b6cbad42a6")
-		(property "Reference" "#PWR05"
-			(at 196.85 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 196.85 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 196.85 100.33 0)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 214.63 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,12 +2960,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c675f6b2-9224-4154-90de-2270011f9172")
+			(uuid "9da61da3-2dfb-4b8c-acaf-e689822ca05e")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4186,6 +4287,82 @@
 		)
 	)
 	(sheet
+		(at 218.44 106.68)
+		(size 12.7 10.16)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "691dabab-6e23-4340-8c34-16b4d675b856")
+		(property "Sheetname" "Voltage Regulator1"
+			(at 218.44 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voltage_regulator.kicad_sch"
+			(at 202.438 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 218.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "Out" input
+			(at 231.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8b7b3ae0-8527-41d3-a1ba-33e95d944263")
+		)
+		(pin "In" input
+			(at 218.44 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "61bc3600-ee6e-4dbe-a116-4e638680ccdb")
+		)
+		(pin "Enable" input
+			(at 218.44 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "24e5e9fd-80fc-40ab-babd-610abe7bd3f5")
+		)
+		(instances
+			(project "ArmLEDsPrototype"
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 180.34 106.68)
 		(size 12.7 10.16)
 		(stroke
@@ -4257,6 +4434,82 @@
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 252.73 106.68)
+		(size 12.7 10.16)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d619daa4-682c-442b-9b7b-97e284388ac2")
+		(property "Sheetname" "Voltage Regulator2"
+			(at 252.73 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voltage_regulator.kicad_sch"
+			(at 236.728 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 252.73 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "Out" input
+			(at 265.43 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "12750ad8-b77b-4c50-b906-c763bbe63c4c")
+		)
+		(pin "In" input
+			(at 252.73 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "02279a92-32ea-4d1e-8d4d-63d547f3e819")
+		)
+		(pin "Enable" input
+			(at 252.73 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b0b74a20-a0a7-41ad-a78c-9904c0a7e63e")
+		)
+		(instances
+			(project "ArmLEDsPrototype"
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
+					(page "6")
 				)
 			)
 		)

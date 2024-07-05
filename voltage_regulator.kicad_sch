@@ -686,28 +686,22 @@
 		)
 	)
 	(junction
-		(at 154.94 85.09)
+		(at 187.96 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7213d8ee-059d-47d6-9ed0-3b14dec8602d")
-	)
-	(junction
-		(at 154.94 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bf1cfb2-f4f8-4d6a-845d-dd0f12a286f5")
+		(uuid "5627ed7b-80e0-4048-baa4-f4edd3ca8fe1")
 	)
 	(junction
 		(at 177.8 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7eb1bf5e-9aed-4cab-b073-d6c7a76f491c")
+		(uuid "65632abf-34f9-4e14-842b-57da520aeb12")
 	)
 	(junction
-		(at 187.96 77.47)
+		(at 154.94 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81dabe08-b367-4fb2-bf1b-c8840d789f51")
+		(uuid "783af8e8-448d-4308-b4cb-9dc6bf3ef0d5")
 	)
 	(junction
 		(at 137.16 77.47)
@@ -716,10 +710,10 @@
 		(uuid "ab7a6dc7-1683-480b-a9b8-f85395402bcf")
 	)
 	(junction
-		(at 165.1 77.47)
+		(at 154.94 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd4df035-fca0-458a-b752-c68c1bfd4533")
+		(uuid "d26c8a91-f895-47f3-952b-1981857f1a6d")
 	)
 	(junction
 		(at 91.44 69.85)
@@ -729,7 +723,17 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 77.47) (xy 187.96 77.47)
+			(xy 187.96 77.47) (xy 200.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040e5b79-9a23-48b1-813f-43a179b9e87a")
+	)
+	(wire
+		(pts
+			(xy 154.94 77.47) (xy 177.8 77.47)
 		)
 		(stroke
 			(width 0)
@@ -746,16 +750,6 @@
 			(type default)
 		)
 		(uuid "18756e7c-1744-4f48-b2f1-a228f0b7aeca")
-	)
-	(wire
-		(pts
-			(xy 154.94 85.09) (xy 165.1 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29e2d813-57a3-4b37-9e87-0377c4607111")
 	)
 	(wire
 		(pts
@@ -799,16 +793,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 85.09) (xy 154.94 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64022bcd-4207-47e0-a5e2-d385288537f3")
-	)
-	(wire
-		(pts
 			(xy 137.16 77.47) (xy 144.78 77.47)
 		)
 		(stroke
@@ -819,17 +803,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 77.47) (xy 177.8 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6c65659-89a6-46d6-a741-878c9bc4f8d6")
-	)
-	(wire
-		(pts
-			(xy 187.96 77.47) (xy 200.66 77.47)
+			(xy 177.8 77.47) (xy 187.96 77.47)
 		)
 		(stroke
 			(width 0)
@@ -879,23 +853,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 85.09) (xy 138.43 85.09)
+			(xy 133.35 85.09) (xy 154.94 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f3c94acd-9b2f-442c-b3d1-e4f6962d129e")
-	)
-	(wire
-		(pts
-			(xy 154.94 77.47) (xy 165.1 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f726389a-5dcf-48cd-b474-c391d5ac2ae0")
 	)
 	(text_box "https://www.digikey.com/en/products/detail/richtek-usa-inc/RT6254BHGJ6F/6238427\n\nC5, 4: https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226KQCLRNC/5961171"
 		(exclude_from_sim no)
@@ -1027,10 +991,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "25929fa6-6a7c-45e1-8e0f-88d55d3a72c9")
+			(uuid "3656e93c-db6f-4a6e-ad8c-741969a67cdd")
 		)
 		(pin "1"
-			(uuid "113840c9-6290-449c-a585-079e459785ae")
+			(uuid "0aeb4d69-8e67-44eb-8d10-3efc686f72f9")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
@@ -1038,74 +1002,12 @@
 					(reference "C2")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 154.94 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04a4cf68-84e9-4916-86b3-dcd0e425e7c4")
-		(property "Reference" "R11"
-			(at 157.48 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/691dabab-6e23-4340-8c34-16b4d675b856"
+					(reference "C6")
+					(unit 1)
 				)
-				(justify right)
-			)
-		)
-		(property "Value" "R"
-			(at 157.48 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 156.718 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale-thin-film/PNM0402E5001BST1/4341869"
-			(at 154.94 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 154.94 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf0b9212-bce9-400a-ab71-07e21350d42e")
-		)
-		(pin "2"
-			(uuid "a3ab5a57-353e-4816-bdd0-7d45aaa22988")
-		)
-		(instances
-			(project "ArmLEDsPrototype"
-				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/ac6a5d9e-f6a4-433e-a953-e1c4c074a701"
-					(reference "R11")
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/d619daa4-682c-442b-9b7b-97e284388ac2"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1166,7 +1068,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "19270a37-acdf-47fe-976b-cecb3c436b44")
+			(uuid "59484b31-3b15-4904-b24f-103b06357d00")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
@@ -1174,74 +1076,12 @@
 					(reference "#PWR012")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 165.1 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c4d0242-76c5-4707-9b60-e971c6851489")
-		(property "Reference" "C3"
-			(at 168.91 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/691dabab-6e23-4340-8c34-16b4d675b856"
+					(reference "#PWR05")
+					(unit 1)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 168.91 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 166.0652 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/kyocera-avx/08055A640FAT2A/1602709"
-			(at 165.1 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 165.1 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3c452e2b-36ea-445c-ba7e-300667370f26")
-		)
-		(pin "1"
-			(uuid "a1ea739d-8444-412b-82e0-58f04f838f1d")
-		)
-		(instances
-			(project "ArmLEDsPrototype"
-				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/ac6a5d9e-f6a4-433e-a953-e1c4c074a701"
-					(reference "C3")
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/d619daa4-682c-442b-9b7b-97e284388ac2"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1275,7 +1115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
 			(at 92.4052 77.47 0)
 			(effects
 				(font
@@ -1284,7 +1124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C2012X5R1V226M125AC/3951664"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kyocera-avx/18123C284KAT2A/11228286"
 			(at 91.44 73.66 0)
 			(effects
 				(font
@@ -1303,10 +1143,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "442d4891-f24e-4661-9917-e5912df3c422")
+			(uuid "35787c50-d8e6-4d4c-b1e8-aaac68af72fc")
 		)
 		(pin "1"
-			(uuid "6c5fad60-9890-456a-a7ab-713b23ca2269")
+			(uuid "abf2bae0-fc75-470c-9e7b-948d50ebc8a1")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
@@ -1314,74 +1154,12 @@
 					(reference "C1")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 177.8 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56f01323-abca-4bf7-b2f8-1ec2fb0cac78")
-		(property "Reference" "C4"
-			(at 181.61 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/691dabab-6e23-4340-8c34-16b4d675b856"
+					(reference "C5")
+					(unit 1)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 181.61 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 178.7652 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226KQCLRNC/5961171"
-			(at 177.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 177.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "df162635-e239-4947-8777-6f9c2d0ea4c6")
-		)
-		(pin "1"
-			(uuid "858d3ea3-fc51-4e32-b80d-44a584bb8695")
-		)
-		(instances
-			(project "ArmLEDsPrototype"
-				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/ac6a5d9e-f6a4-433e-a953-e1c4c074a701"
-					(reference "C4")
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/d619daa4-682c-442b-9b7b-97e284388ac2"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -1413,7 +1191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ArmLEDFootprintLib:Inductor"
+		(property "Footprint" "ArmLEDFootprintLib:4r7007"
 			(at 148.59 77.47 0)
 			(effects
 				(font
@@ -1441,15 +1219,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "e73ba686-01e5-44e7-b501-15cd99924f8d")
+			(uuid "a0776ed0-050f-4c29-8e36-481f074bc715")
 		)
 		(pin "2"
-			(uuid "7698cfb9-8abf-4e2d-b9ac-e31e436f0ac1")
+			(uuid "eee1a71e-cd4c-41e7-8009-f1ce233ec564")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/ac6a5d9e-f6a4-433e-a953-e1c4c074a701"
 					(reference "L1")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/691dabab-6e23-4340-8c34-16b4d675b856"
+					(reference "L2")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/d619daa4-682c-442b-9b7b-97e284388ac2"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -1509,22 +1295,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "98731b69-5804-4500-a7c0-b16fcbd1ca18")
+			(uuid "dc68733f-062c-4e3b-aa5c-e223dea1ecc7")
 		)
 		(pin "2"
-			(uuid "489fd967-beb7-43f8-968d-07426925da12")
+			(uuid "a8a48f4b-ed3e-4197-8e65-4230db18a20f")
 		)
 		(pin "6"
-			(uuid "ab519a3d-e273-4744-be2f-bf49228c6757")
+			(uuid "f46ca029-2e40-45c6-a23f-4b9c37d98726")
 		)
 		(pin "3"
-			(uuid "58dd4a7f-c477-4679-a7a3-a5ba9adba7f8")
+			(uuid "e8041674-2ada-4e37-a76b-790f7e8ebdf3")
 		)
 		(pin "4"
-			(uuid "f998b5e6-8e26-4e76-902f-2b723758c1af")
+			(uuid "267551c0-4e7a-4975-a496-7214f473465d")
 		)
 		(pin "1"
-			(uuid "bac46a4e-26e6-40f2-a017-eff72a7626cf")
+			(uuid "76182971-0345-4ecf-b435-1a2f53d04620")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
@@ -1532,37 +1318,47 @@
 					(reference "U1")
 					(unit 1)
 				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/691dabab-6e23-4340-8c34-16b4d675b856"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/d619daa4-682c-442b-9b7b-97e284388ac2"
+					(reference "U3")
+					(unit 1)
+				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 85.09 90)
+		(at 154.94 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "79f78538-55cd-4e76-acc7-c6a6f03559f8")
-		(property "Reference" "R9"
-			(at 142.24 78.74 90)
+		(uuid "80e2d577-c94b-4105-9f2b-fc5c1953ccfa")
+		(property "Reference" "R10"
+			(at 157.48 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "R"
-			(at 142.24 81.28 90)
+			(at 157.48 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 142.24 86.868 90)
+			(at 153.162 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,7 +1367,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale-thin-film/PNM0402E5001BST1/4341869"
-			(at 142.24 85.09 0)
+			(at 154.94 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +1376,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 85.09 0)
+			(at 154.94 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,16 +1384,24 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "81ceccf4-2d9c-4dd3-ad78-51720567f72c")
-		)
 		(pin "2"
-			(uuid "b6932fdb-be57-4e96-9abe-9b9a0f52c3f7")
+			(uuid "2958d9a9-24d3-478c-9cb2-11664f8e7992")
+		)
+		(pin "1"
+			(uuid "7d2b7565-1364-40d6-8434-dea7980f0a19")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/ac6a5d9e-f6a4-433e-a953-e1c4c074a701"
-					(reference "R9")
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/691dabab-6e23-4340-8c34-16b4d675b856"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/d619daa4-682c-442b-9b7b-97e284388ac2"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1658,12 +1462,97 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e922605-fe11-4680-b972-96c237af8d96")
+			(uuid "f6da7592-a63e-4f09-9032-fb72f80873ce")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/ac6a5d9e-f6a4-433e-a953-e1c4c074a701"
 					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/691dabab-6e23-4340-8c34-16b4d675b856"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/d619daa4-682c-442b-9b7b-97e284388ac2"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 187.96 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e8b5684-a151-4bc7-bf94-5d2e0f308b87")
+		(property "Reference" "C4"
+			(at 191.77 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 191.77 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 207.01 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226KQCLRNC/5961171"
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41f48f7e-cb7a-451f-8201-9bf768ace185")
+		)
+		(pin "1"
+			(uuid "3f8da8b3-0cfa-42ff-8975-9fb687af5dce")
+		)
+		(instances
+			(project "ArmLEDsPrototype"
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/ac6a5d9e-f6a4-433e-a953-e1c4c074a701"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/691dabab-6e23-4340-8c34-16b4d675b856"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/d619daa4-682c-442b-9b7b-97e284388ac2"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -1724,12 +1613,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "97606118-c40b-44ea-96a0-f3fcfe27a577")
+			(uuid "283cf0c8-fa7d-4dea-9a06-e26dc34b4b5d")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/ac6a5d9e-f6a4-433e-a953-e1c4c074a701"
 					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/691dabab-6e23-4340-8c34-16b4d675b856"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/d619daa4-682c-442b-9b7b-97e284388ac2"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1790,12 +1687,97 @@
 			)
 		)
 		(pin "1"
-			(uuid "26ed9761-185d-4740-a657-b32a54ce7411")
+			(uuid "4c2a005e-1dc2-48c3-8908-513a1f16d8f0")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/ac6a5d9e-f6a4-433e-a953-e1c4c074a701"
 					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/691dabab-6e23-4340-8c34-16b4d675b856"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/d619daa4-682c-442b-9b7b-97e284388ac2"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e41c1281-1f20-484f-a1a0-c724545dfac6")
+		(property "Reference" "C3"
+			(at 181.61 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 181.61 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 196.85 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226KQCLRNC/5961171"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34be0a9a-eb32-4af5-b505-e77c71d8f0d3")
+		)
+		(pin "1"
+			(uuid "b01b819b-924d-4e2a-a3dd-d84e5c2f6f5e")
+		)
+		(instances
+			(project "ArmLEDsPrototype"
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/ac6a5d9e-f6a4-433e-a953-e1c4c074a701"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/691dabab-6e23-4340-8c34-16b4d675b856"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/d619daa4-682c-442b-9b7b-97e284388ac2"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -1810,8 +1792,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b71cc312-6cd6-4cca-9bb9-d96daef2d27d")
-		(property "Reference" "R10"
+		(uuid "e6908263-dff6-40ca-8295-668a5d9421ea")
+		(property "Reference" "R9"
 			(at 157.48 80.0099 0)
 			(effects
 				(font
@@ -1857,84 +1839,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "718bbb5c-d06d-49d8-bbad-80740398fe3e")
+			(uuid "b193e55e-41d7-473a-b399-4e0b9604a098")
 		)
 		(pin "1"
-			(uuid "7608a169-6055-428c-8987-090eb3c6ef0d")
+			(uuid "036c5704-3766-43b4-83eb-cd8565d5794a")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/ac6a5d9e-f6a4-433e-a953-e1c4c074a701"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 187.96 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f888a7b0-3046-4935-be37-869802657ef2")
-		(property "Reference" "C5"
-			(at 191.77 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/691dabab-6e23-4340-8c34-16b4d675b856"
+					(reference "R11")
+					(unit 1)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 191.77 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 207.01 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226KQCLRNC/5961171"
-			(at 187.96 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 187.96 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fd207c65-d2a9-4ec0-83a5-34049769348c")
-		)
-		(pin "1"
-			(uuid "b1b99390-554f-4f64-903e-049a23504f6f")
-		)
-		(instances
-			(project "ArmLEDsPrototype"
-				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/ac6a5d9e-f6a4-433e-a953-e1c4c074a701"
-					(reference "C5")
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/d619daa4-682c-442b-9b7b-97e284388ac2"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -1995,12 +1916,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c2dc529-1147-4e14-a944-313e5abaf9ba")
+			(uuid "8be3d7b1-6848-48c5-be97-f3a1bca08998")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/ac6a5d9e-f6a4-433e-a953-e1c4c074a701"
 					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/691dabab-6e23-4340-8c34-16b4d675b856"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8/d619daa4-682c-442b-9b7b-97e284388ac2"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
