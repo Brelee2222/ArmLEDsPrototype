@@ -897,10 +897,10 @@
 		)
 		(uuid "f726389a-5dcf-48cd-b474-c391d5ac2ae0")
 	)
-	(text_box "https://www.digikey.com/en/products/detail/richtek-usa-inc/RT6254BHGJ6F/6238427"
+	(text_box "https://www.digikey.com/en/products/detail/richtek-usa-inc/RT6254BHGJ6F/6238427\n\nC5, 4: https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226KQCLRNC/5961171"
 		(exclude_from_sim no)
 		(at 38.1 33.02 0)
-		(size 87.63 3.81)
+		(size 87.63 21.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -999,7 +999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 138.1252 77.47 0)
 			(effects
 				(font
@@ -1008,7 +1008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KO8NNNC/3886663"
 			(at 137.16 73.66 0)
 			(effects
 				(font
@@ -1275,7 +1275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 92.4052 77.47 0)
 			(effects
 				(font
@@ -1284,7 +1284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C2012X5R1V226M125AC/3951664"
 			(at 91.44 73.66 0)
 			(effects
 				(font
@@ -1345,7 +1345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 178.7652 85.09 0)
 			(effects
 				(font
@@ -1354,7 +1354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226KQCLRNC/5961171"
 			(at 177.8 81.28 0)
 			(effects
 				(font
@@ -1481,7 +1481,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ArmLEDFootprintLib:RT6254A"
 			(at 123.19 67.31 0)
 			(effects
 				(font
@@ -1490,7 +1490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/richtek-usa-inc/RT6254BHGJ6F/6238427"
 			(at 123.19 67.31 0)
 			(effects
 				(font
@@ -1879,7 +1879,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f888a7b0-3046-4935-be37-869802657ef2")
 		(property "Reference" "C5"
 			(at 191.77 80.0099 0)
@@ -1899,8 +1898,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 188.9252 85.09 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 207.01 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +1907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226KQCLRNC/5961171"
 			(at 187.96 81.28 0)
 			(effects
 				(font
