@@ -444,6 +444,18 @@
 		(color 0 0 0 0)
 		(uuid "38c946b6-c6ac-475c-bddf-4747d8d5e5a8")
 	)
+	(no_connect
+		(at 138.43 80.01)
+		(uuid "4f82eec1-31e4-4ce0-b4d0-3f47bdceb26d")
+	)
+	(no_connect
+		(at 138.43 96.52)
+		(uuid "f20fcd92-4a27-4d84-9234-d86069f5cfdb")
+	)
+	(no_connect
+		(at 138.43 66.04)
+		(uuid "f6e14d01-bd54-4853-966b-4fd123381023")
+	)
 	(wire
 		(pts
 			(xy 156.21 87.63) (xy 156.21 104.14)

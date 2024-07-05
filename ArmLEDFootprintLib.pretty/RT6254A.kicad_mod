@@ -1,0 +1,180 @@
+(footprint "RT6254A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -9.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bf3e28ed-bff1-49ad-b616-771ff9ee2c86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RT6254A"
+		(at 0 -8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "643c8cce-300f-4b5c-8177-d412b4a0d34d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "RT6254A"
+		(at 0 -11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccff0c23-d9c6-4b38-b68b-47d9560196ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1.5367 -0.9779 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c5cc648-cd97-47c7-8eae-99bf181976d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -1.5367 -0.9779 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a38bafee-0751-4e29-9ace-1acd404c5ecd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5367 -0.9779)
+		(end -1.5367 0.8255)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "25c5124f-26d6-404d-b505-d881fbb0123a")
+	)
+	(fp_line
+		(start -1.5367 0.8255)
+		(end 1.5621 0.8255)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "adbdb260-afca-4a91-81f9-4573d1b6cc96")
+	)
+	(fp_line
+		(start -0.9271 -1.5748)
+		(end -0.9271 1.4224)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "43a6637e-5c56-4fa4-9b0b-bfbe957f156e")
+	)
+	(fp_line
+		(start 0.0127 -0.9779)
+		(end 0.0127 -1.5748)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "5f20ef5f-d6b6-4a21-833a-9adff0c5d34f")
+	)
+	(fp_line
+		(start 0.0127 0.8255)
+		(end 0.0127 1.4224)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "f7a8face-10e8-4036-ac52-fea6ebbf35c7")
+	)
+	(fp_line
+		(start 0.9525 -1.5748)
+		(end 0.9525 1.4224)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "60decd3d-18bf-4fef-98b9-470dfe305b59")
+	)
+	(fp_line
+		(start 1.5621 -0.9779)
+		(end -1.5367 -0.9779)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "221ca041-a24f-481b-9fe3-6709de3c8401")
+	)
+	(fp_line
+		(start 1.5621 0.8255)
+		(end 1.5621 -0.9779)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "70207745-891d-47f8-9532-fcc91c6001d3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1c7de7c6-0fc9-4ed5-adfc-48072a7bc5bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text_box "I deleted the measure to make it look cleaner"
+		(start 3.5814 -2.7559)
+		(end 8.3566 2.0193)
+		(layer "User.1")
+		(uuid "c697637a-1882-438c-aff4-038e9ba84faf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
+)

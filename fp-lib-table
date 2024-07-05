@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ArmLEDFootprintLib")(type "KiCad")(uri "${KIPRJMOD}/ArmLEDFootprintLib.pretty")(options "")(descr ""))
+)

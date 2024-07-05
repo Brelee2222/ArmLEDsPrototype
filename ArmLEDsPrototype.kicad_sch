@@ -1948,6 +1948,12 @@
 		)
 	)
 	(junction
+		(at 176.53 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0461abea-e10f-414d-aae2-872a85710dfa")
+	)
+	(junction
 		(at 194.31 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2053,23 +2059,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 111.76) (xy 180.34 111.76)
+			(xy 176.53 109.22) (xy 180.34 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "375aafbb-56e0-497f-9e92-a31bc7b03f6a")
-	)
-	(wire
-		(pts
-			(xy 196.85 114.3) (xy 196.85 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4caa3090-261c-4c01-a6e0-cf3e23e80a70")
 	)
 	(wire
 		(pts
@@ -2253,7 +2249,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 109.22) (xy 196.85 100.33)
+			(xy 196.85 111.76) (xy 196.85 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2323,7 +2319,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 102.87) (xy 176.53 111.76)
+			(xy 176.53 100.33) (xy 176.53 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2353,16 +2349,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 114.3) (xy 196.85 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdf33c27-eae6-491a-9e2a-03f387e0aabc")
-	)
-	(wire
-		(pts
 			(xy 194.31 41.91) (xy 194.31 50.8)
 		)
 		(stroke
@@ -2383,7 +2369,27 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 109.22) (xy 196.85 109.22)
+			(xy 176.53 109.22) (xy 176.53 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea6d326-bc78-48cb-887d-daa8bc5ba5e1")
+	)
+	(wire
+		(pts
+			(xy 176.53 114.3) (xy 180.34 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff9fe5a-b6f0-4121-b246-24bc399c5c15")
+	)
+	(wire
+		(pts
+			(xy 193.04 111.76) (xy 196.85 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3687,7 +3693,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 176.53 102.87 0)
+		(at 176.53 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3696,7 +3702,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdb63a06-e75a-46dc-bcbe-434cb65d38db")
 		(property "Reference" "#PWR08"
-			(at 176.53 106.68 0)
+			(at 176.53 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3711,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 176.53 97.79 0)
+			(at 176.53 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 102.87 0)
+			(at 176.53 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 102.87 0)
+			(at 176.53 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +3737,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 176.53 102.87 0)
+			(at 176.53 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3746,72 +3752,6 @@
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 196.85 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c05dacff-4ede-4ca0-9a8f-3712e2b3c6fa")
-		(property "Reference" "#PWR04"
-			(at 196.85 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 196.85 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "091ab936-1c41-4a09-b41d-486be7075220")
-		)
-		(instances
-			(project "ArmLEDsPrototype"
-				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4283,18 +4223,8 @@
 				(hide yes)
 			)
 		)
-		(pin "GND" input
-			(at 193.04 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "92a888eb-496c-416d-ad72-fa6d043fc1c3")
-		)
 		(pin "Out" input
-			(at 193.04 109.22 0)
+			(at 193.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4234,7 @@
 			(uuid "b97d6c94-22b9-4c25-b6ac-48f016813a1a")
 		)
 		(pin "In" input
-			(at 180.34 111.76 180)
+			(at 180.34 109.22 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,6 +4242,16 @@
 				(justify left)
 			)
 			(uuid "38297208-42f7-43fa-98a1-a2d8ae8db3e3")
+		)
+		(pin "Enable" input
+			(at 180.34 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a75549d7-8906-4881-8f3e-55e919b1205f")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
