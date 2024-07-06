@@ -1,4 +1,4 @@
-23339727493511893
+23341447730876157
 ArmLEDFootprintLib
 4r7007
 
@@ -20,6 +20,13 @@ RT6254A
 0
 6
 6
+ArmLEDFootprintLib
+RotaryEncoder
+
+
+0
+5
+5
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

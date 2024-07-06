@@ -1989,16 +1989,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 54.61) (xy 57.15 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "078f67f6-790a-413d-afdf-d7950f820580")
-	)
-	(wire
-		(pts
 			(xy 82.55 52.07) (xy 90.17 52.07)
 		)
 		(stroke
@@ -2006,16 +1996,6 @@
 			(type default)
 		)
 		(uuid "0ad113a7-1c35-4690-8dec-213f67d644d2")
-	)
-	(wire
-		(pts
-			(xy 44.45 26.67) (xy 44.45 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d3e8d69-28a9-4fa3-81be-4327ecc225ee")
 	)
 	(wire
 		(pts
@@ -2029,13 +2009,23 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 44.45) (xy 57.15 44.45)
+			(xy 40.64 49.53) (xy 57.15 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c62806e-f78f-4324-9f00-11bcde2b6814")
+		(uuid "120b8f5d-51aa-42ce-8e6e-cb20ee1dbcb9")
+	)
+	(wire
+		(pts
+			(xy 40.64 62.23) (xy 57.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f09780-e151-46c4-b008-9aa2471d97f4")
 	)
 	(wire
 		(pts
@@ -2059,16 +2049,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 36.83) (xy 46.99 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c99784f-6109-47f3-8e36-b009e92ffff6")
-	)
-	(wire
-		(pts
 			(xy 214.63 100.33) (xy 214.63 109.22)
 		)
 		(stroke
@@ -2076,6 +2056,16 @@
 			(type default)
 		)
 		(uuid "2ef905f8-9c74-4e1e-a47c-88ec2238c948")
+	)
+	(wire
+		(pts
+			(xy 40.64 52.07) (xy 57.15 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309eb0c1-f875-4957-afd8-3a1f8b25d7e7")
 	)
 	(wire
 		(pts
@@ -2106,6 +2096,16 @@
 			(type default)
 		)
 		(uuid "375aafbb-56e0-497f-9e92-a31bc7b03f6a")
+	)
+	(wire
+		(pts
+			(xy 40.64 57.15) (xy 57.15 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "466172a2-7234-41da-b657-1af0378f7175")
 	)
 	(wire
 		(pts
@@ -2189,53 +2189,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 26.67) (xy 46.99 36.83)
+			(xy 40.64 59.69) (xy 57.15 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "671ec134-845d-4ee5-9533-e5ca231b7b06")
-	)
-	(wire
-		(pts
-			(xy 43.18 59.69) (xy 57.15 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68c34b15-3b8e-4a2f-8d68-697ffe7c43ba")
-	)
-	(wire
-		(pts
-			(xy 44.45 39.37) (xy 57.15 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6925251f-e830-4b2a-ba3c-93d860b0b36c")
-	)
-	(wire
-		(pts
-			(xy 43.18 57.15) (xy 57.15 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a25b4af-6590-4c0c-ac7b-4ba110e966c7")
-	)
-	(wire
-		(pts
-			(xy 82.55 59.69) (xy 107.95 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d7406e3-2907-4d93-91bb-93418786eb94")
+		(uuid "63062cfb-8d5a-4710-a488-20d5ac6a4d2e")
 	)
 	(wire
 		(pts
@@ -2289,6 +2249,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 39.37) (xy 57.15 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8433f460-25d2-491c-bac1-a3f51a8e30db")
+	)
+	(wire
+		(pts
 			(xy 82.55 67.31) (xy 88.9 67.31)
 		)
 		(stroke
@@ -2299,16 +2269,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 49.53) (xy 57.15 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86650c8f-739f-4cb4-ab8a-1f5c46685282")
-	)
-	(wire
-		(pts
 			(xy 149.86 43.18) (xy 149.86 50.8)
 		)
 		(stroke
@@ -2316,6 +2276,16 @@
 			(type default)
 		)
 		(uuid "88064246-242d-4d42-845c-46cfbaab088a")
+	)
+	(wire
+		(pts
+			(xy 40.64 54.61) (xy 57.15 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891ccfa5-b3ce-4b98-b2d0-fd3d665a8fb6")
 	)
 	(wire
 		(pts
@@ -2359,16 +2329,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 46.99) (xy 57.15 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2e3b000-2cc2-43ea-88b4-c5529c589846")
-	)
-	(wire
-		(pts
 			(xy 82.55 74.93) (xy 88.9 74.93)
 		)
 		(stroke
@@ -2379,13 +2339,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 52.07) (xy 57.15 52.07)
+			(xy 40.64 46.99) (xy 57.15 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1743c60-39f2-4745-8f7f-15977f16906d")
+		(uuid "b0612fa4-e8ee-4706-97e9-ea14970a30c9")
 	)
 	(wire
 		(pts
@@ -2396,16 +2356,6 @@
 			(type default)
 		)
 		(uuid "b31a5aa0-ab84-4016-a341-dd9179378430")
-	)
-	(wire
-		(pts
-			(xy 82.55 57.15) (xy 107.95 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6900d4e-b08e-4a3c-be04-49ae1c136bf6")
 	)
 	(wire
 		(pts
@@ -2429,13 +2379,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 62.23) (xy 107.95 62.23)
+			(xy 40.64 44.45) (xy 57.15 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c17f6b31-4987-402f-97c7-0bdae0e9f6ae")
+		(uuid "cd46bc9e-711e-4184-87bc-441fe134655d")
 	)
 	(wire
 		(pts
@@ -2516,16 +2466,6 @@
 			(type default)
 		)
 		(uuid "ed719d22-9030-467d-acb4-e36b834d1805")
-	)
-	(wire
-		(pts
-			(xy 43.18 62.23) (xy 57.15 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f18431ae-3ab4-41f9-98b6-a9f473e2c107")
 	)
 	(wire
 		(pts
@@ -2637,7 +2577,7 @@
 		)
 		(uuid "29e8553c-4eed-4fe7-8c23-c104adf3856a")
 	)
-	(label "5V#1"
+	(label "5V#3"
 		(at 67.31 21.59 90)
 		(fields_autoplaced yes)
 		(effects
@@ -2660,7 +2600,7 @@
 		(uuid "3f7d9c5f-4666-4cea-ba59-3cc6e512dbd7")
 	)
 	(label "5V#3"
-		(at 194.31 29.21 90)
+		(at 149.86 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2671,7 +2611,7 @@
 		(uuid "4027bcb8-ebbe-4ce5-a973-cecc78250246")
 	)
 	(label "5V#1"
-		(at 149.86 29.21 90)
+		(at 194.31 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3032,76 +2972,6 @@
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 44.45 21.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "625f55fb-5c5a-4afd-a089-fcab883ce1b0")
-		(property "Reference" "J2"
-			(at 49.53 20.3199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 49.53 22.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 44.45 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8cefa029-4328-4b0e-b6cb-d8162fd5ea1b")
-		)
-		(pin "1"
-			(uuid "537775c3-f233-41d4-bfe7-174d5d0c1ba3")
-		)
-		(instances
-			(project "ArmLEDsPrototype"
-				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4219,74 +4089,6 @@
 		)
 	)
 	(sheet
-		(at 107.95 53.34)
-		(size 12.7 12.7)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3654b92c-984a-496c-8d50-c36fa458b749")
-		(property "Sheetname" "Tuner"
-			(at 107.95 52.6284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "tuner.kicad_sch"
-			(at 107.95 66.6246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Out1" input
-			(at 107.95 57.15 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e2ee7643-7143-4efb-a959-e3762461e70b")
-		)
-		(pin "Out2" input
-			(at 107.95 59.69 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9d7b00c0-7cdc-4354-9fca-c4657dfa1553")
-		)
-		(pin "Out3" input
-			(at 107.95 62.23 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b135c8d8-21ff-470a-8393-34e407873a5b")
-		)
-		(instances
-			(project "ArmLEDsPrototype"
-				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 218.44 106.68)
 		(size 12.7 10.16)
 		(stroke
@@ -4353,6 +4155,133 @@
 				(justify left)
 			)
 			(uuid "24e5e9fd-80fc-40ab-babd-610abe7bd3f5")
+		)
+		(instances
+			(project "ArmLEDsPrototype"
+				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 36.83)
+		(size 13.97 27.94)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9012a134-6b46-4e37-8202-539905324e58")
+		(property "Sheetname" "Controller"
+			(at 26.67 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 18.288 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "InputS" input
+			(at 40.64 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "325c5295-6c51-4d44-94e7-8744f8883b25")
+		)
+		(pin "Input2B" input
+			(at 40.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "44ac9c6b-54fe-4501-9a76-7bc94aa4f092")
+		)
+		(pin "Input1B" input
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7a12dfb1-72ad-4e6e-a562-07b9409e9ac9")
+		)
+		(pin "Input1A" input
+			(at 40.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "36eff1d9-5733-4a41-86d0-16e03ca133d3")
+		)
+		(pin "Input2A" input
+			(at 40.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "31874cf6-176f-41c6-bd78-d8ece9446b58")
+		)
+		(pin "Input3B" input
+			(at 40.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "514655f2-e3d1-4faf-8c97-da4499bb31da")
+		)
+		(pin "Input4B" input
+			(at 40.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "68aa6c6f-1e8a-4ec0-9470-b2fdc8d04a7a")
+		)
+		(pin "Input3A" input
+			(at 40.64 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "38d3dc90-1a95-40ab-8d86-9b8506b1c202")
+		)
+		(pin "Input4A" input
+			(at 40.64 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "543959d1-1d31-4052-8b14-5b52be184c41")
 		)
 		(instances
 			(project "ArmLEDsPrototype"
@@ -4510,123 +4439,6 @@
 			(project "ArmLEDsPrototype"
 				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 30.48 41.91)
-		(size 12.7 22.86)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "df8fbcad-d766-4b49-aa7c-b195e3bcefad")
-		(property "Sheetname" "DIPSwitches"
-			(at 30.48 41.1984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "dip_switches.kicad_sch"
-			(at 14.478 65.278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SW1" input
-			(at 43.18 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b44cfd0d-64a9-4bd5-a71d-f481af7246cc")
-		)
-		(pin "SW4" input
-			(at 43.18 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4086fe2e-be02-41fe-890f-e3e861259825")
-		)
-		(pin "SW3" input
-			(at 43.18 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a3fda0fc-5e0a-46f3-8315-35b8d1ecdc4d")
-		)
-		(pin "SW2" input
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a28ada00-a142-499d-a693-da35c76dc6e4")
-		)
-		(pin "SW7" input
-			(at 43.18 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f021cda0-66b6-4db6-9d18-0af847195358")
-		)
-		(pin "SW5" input
-			(at 43.18 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1091af90-b7a7-40a1-8838-f70f87d4a636")
-		)
-		(pin "SW6" input
-			(at 43.18 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "70eb60e6-f518-441f-9816-74237936b545")
-		)
-		(pin "SW8" input
-			(at 43.18 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "75f562f2-74a5-418c-a498-ffba2598fa40")
-		)
-		(instances
-			(project "ArmLEDsPrototype"
-				(path "/ff63bc24-941d-4483-9b8a-1a025ec06db8"
-					(page "4")
 				)
 			)
 		)

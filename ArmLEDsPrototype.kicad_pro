@@ -115,7 +115,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
@@ -599,12 +599,8 @@
       "Voltage Regulator"
     ],
     [
-      "3654b92c-984a-496c-8d50-c36fa458b749",
-      "Tuner"
-    ],
-    [
-      "df8fbcad-d766-4b49-aa7c-b195e3bcefad",
-      "DIPSwitches"
+      "9012a134-6b46-4e37-8202-539905324e58",
+      "Controller"
     ],
     [
       "691dabab-6e23-4340-8c34-16b4d675b856",
