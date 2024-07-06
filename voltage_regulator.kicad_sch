@@ -880,10 +880,10 @@
 		)
 		(uuid "3e3d783e-d90e-43da-a9fd-a8d4e7ec49c0")
 	)
-	(text_box "R10: 147k ohms\nR11: 20k ohms\nR9: 5k ohms\nL1: 4.7 micro Henries\nC1, 4, 5: 22 micro farads\nC2: 0.1 micro Farads\nC3: 47-82 pico Farads"
+	(text_box "R10: 147k ohms\nR11: 20k ohms\nR9: 5k ohms\nL1: 4.7 micro Henries\nC1: 0.28 microFarads\nC4, 5: 22 micro farads\nC2: 0.1 micro Farads\nC3: 47-82 pico Farads"
 		(exclude_from_sim no)
 		(at 149.86 29.21 0)
-		(size 29.21 15.24)
+		(size 29.21 17.78)
 		(stroke
 			(width 0)
 			(type default)
