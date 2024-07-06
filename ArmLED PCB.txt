@@ -1,0 +1,18 @@
+﻿Features:
+* Pico-EZmate Connectors for the LEDs
+* Three voltage regulators
+* Arduino Nano
+* 3 Rotary encoders for Control
+* 7 Analog pads for modifications
+
+
+Voltage Regulator
+        The voltage regulator’s maximum current output is 4A. 
+        The VR chip is a switching regulator that switches at a frequency of 500kHz.
+        It takes in 12V and outputs 5V.
+        The first voltage regulator connects to the arduino and the starting LEDs connector.
+
+
+Rotary Encoders
+        The rotary encoders act as controllers for the arduino.
+        I preferred them over potentiometers and DIP switches because they allow for more control with less pins.
